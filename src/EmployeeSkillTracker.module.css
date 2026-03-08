@@ -1,0 +1,38 @@
+.container{
+ text-align:center;
+ margin-top:40px;
+}
+
+.heading{
+ color:blue;
+ text-shadow:1px 1px 3px gray;
+}
+
+.input{
+ padding:8px;
+ border-radius:5px;
+ border:1px solid lightgray;
+}
+
+.input:focus{
+ border-color:green;
+ outline:none;
+}
+
+.button{
+ background:#007acc;
+ color:white;
+ border:none;
+ padding:8px 15px;
+ border-radius:5px;
+ margin:5px;
+}
+
+.button:hover{
+ background:#005f99;
+}
+
+.error{
+ color:red;
+ font-weight:bold;
+}
